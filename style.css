@@ -70,7 +70,6 @@ button {
 }
 
 .hero__center {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   height: 50%;
   background-position: right;
   background-repeat: no-repeat;
