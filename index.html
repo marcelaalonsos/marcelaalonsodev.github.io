@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
     <title>Marcela Alonso - Developer</title>
   </head>
   <body class="light" id="top">
@@ -24,6 +30,9 @@
             <a class="link link--nav" href="#contact">Contact</a>
           </li>
         </ul>
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
         <button
           type="button"
           aria-label="toggle navigation"
@@ -34,16 +43,19 @@
       </nav>
     </header>
     <main>
-      <div class="hero center"></div>
-      <h1>Hi, I am <span class="about__name">Marcela Alonso</span></h1>
-      <h3>(She/Her, They/Them)</h3>
-      <h2 class="about__role">A Full Stack Software Developer</h2>
-      <p class="about__desc">
-        I'm an agile problem solver and avid learner. With over 10 years working
-        in the Architecture and Real Estate Industries, I'm seeking to leverage
-        my experience managing design from kick-off to final product with
-        technical skills for a career in software development.
-      </p>
+      <div class="hero__center">
+        <div class="hero__text">
+          <h1>Hi, I am <span class="about__name">Marcela Alonso</span></h1>
+          <h3>(She/Her, They/Them)</h3>
+          <h2 class="about__role">A Full Stack Software Developer</h2>
+          <p class="about__desc">
+            I'm an agile problem solver and avid learner. With over 10 years
+            working in the Architecture and Real Estate Industries, I'm seeking
+            to leverage my experience managing design from kick-off to final
+            product with technical skills for a career in software development.
+          </p>
+        </div>
+      </div>
     </main>
   </body>
 </html>
