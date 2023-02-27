@@ -81,6 +81,7 @@ button {
 }
 
 .hero__center {
+  background-image: url("avatar5.png");
   height: 50%;
   background-position: right;
   background-repeat: no-repeat;
