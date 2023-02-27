@@ -26,7 +26,7 @@ body {
 
 .light {
   --clr-bg: #fff;
-  --clr-bg-alt: #f6efee;
+  --clr-bg-alt: #a6a867;
   --clr-fg: #1b2021;
   --clr-fg-alt: #9a9a98;
   --clr-primary: #51513d;
@@ -81,7 +81,7 @@ button {
 }
 
 .hero__center {
-  background-image: url("avatar5.png");
+  background-image: "avatar5.png";
   height: 50%;
   background-position: right;
   background-repeat: no-repeat;
