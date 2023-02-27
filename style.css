@@ -93,7 +93,7 @@ button {
   position: relative;
 }
 
-.hero__text {
+h1.hero__text {
   text-align: left;
   position: absolute;
   top: 50%;
